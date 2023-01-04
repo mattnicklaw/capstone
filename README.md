@@ -48,10 +48,3 @@ I was missing SQL pretty bad at this point, so I installed a python package call
 Using the TIGER/LINE shapefile I was able to get every county in the United States mapped with geospatial.  These county polygons were shaped using the geometry coordinates, and centroids found within. From there I broke it down state-by-state to find the biggest discrepencies (or similarities) between Quality of Life statistics, Density, Percent Access to Exercise, Percent Access to College, and finally Median Household Income.  I used a spectral color scheme heatmap to illustrate the difference in the above categories.
 
 </details>
-
-<details>
-  <summary>Loading data to Tableau, building dashboards</summary>
-
-After moving data into Tableau, my first step was to begin building maps. A major element that my friend emphasized to me was her wish to be able to see the distribution of healthcare facilities, ideally layered with other relevant pieces of data. From there, I looked at a variety of options, and ultimately decided that to maximize flexibility for users via filtering options while also balancing clarity and ease-of-use, I would build separate dashboards for each major data element (facilities, HPSA designations, health insurance coverage rates, ) along with an overview comparing rural and non-rural areas on these metrics. I also added additional 
-
-</details>
