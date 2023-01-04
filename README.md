@@ -2,8 +2,8 @@
 
 ## Executive Summary
 I have moved around the U.S. my whole life. I have lived in 7 states and 19 counties in
-my 40 years. I’ve lived in rural areas and the biggest cities in the country. So, I would
-like to try to compare Quality of Life and Life Expectancy against Population Density.
+my 40 years. I’ve lived in rural areas and the biggest cities in the country. So, I set out
+to try to compare Quality of Life and Life Expectancy against Population Density.
 I was excited to break down these demographics by county, to see snapshots of where
 the Quality of Life in America is the best.
 
