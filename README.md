@@ -34,8 +34,13 @@ middle?
 <details>
   <summary>Acquiring the data</summary>
 
-After having found all 50 states (.CSV) on the County Health Rankings site I used python to create a mega-merge to get all of this info into one easy-to-digest table. While the data was fairly clean, there was quite a bit of reformatting needed in order for the columns to match up for the merge that I wanted. 
+After having found all 50 states (.CSV) on the County Health Rankings site, I used python to create a mega-merge to get all of this info into one easy-to-digest table. While the data was fairly clean, there was quite a bit of reformatting needed in order for the columns to match up for the merge that I wanted. 
 </details>  
+
+<details>
+  <summary>Analyzing the data</summary>
+  
+I was missing SQL pretty bad at this point, so I installed a python package called PANDASQL, so I could manipulate my dataframes using SQL techniques.  From there I narrowed down my dataframes to find the states with the strongest and weakest correlations to Quality of Life, to analyze what affected that statistic the most. Starting with Population Density, I quickly realized there was no correlation, so I moved on to Percent Access to Exercise.  There was some correlation there, but not enough to wow anyone, so then I started diving into Percent of Adults with Some College, before finally finding Median Household Income as the #1 factor in determining Quality of Life on a county-by-county basis.
 
 <details>
   <summary>Mapping</summary>
